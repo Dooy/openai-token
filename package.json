@@ -17,6 +17,7 @@
   },
   "scripts": {
     "build": "tsup",
+    "demo": "npx tsx src/demo.ts",
     "dev": "tsup --watch",
     "clean": "del build",
     "prebuild": "npm run clean",
