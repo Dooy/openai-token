@@ -31,7 +31,7 @@ axios.defaults.proxy = {
 const instance = axios.create({});
 
 function getTest(){
-    instance.get('http://myip.ipip.net/')
+    instance.get('http://myip.lunaproxy.io')
     .then(response => {
         console.log('Response:', response.data);
         //console.log('Response:', response.headers);
