@@ -32,7 +32,7 @@ auth.getTest(1)
 auth.getTest(2)
 await auth.begin()
 const token = await auth.getAccessToken()
-console.log('token');
+console.log('token ', token);
 
 
 
