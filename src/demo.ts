@@ -22,7 +22,7 @@ axios.defaults.proxy = {
   host: 'na.lunaproxy.com',
   port: 12233,
   auth: {
-    username: 'user-god-region-us-st-oregon-sessid-usxjabl4xewvre7k29-sesstime-1',
+    username: 'user-god-region-us-st-oregon-city-portland-sessid-usxjabl4xewvre7k29-sesstime-1',
     password: 'god258369',
   },
 }
