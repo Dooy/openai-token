@@ -28,17 +28,16 @@ axios.defaults.proxy = {
 
 
 
-const instance = axios.create({
-// proxy:{
-//     host: '43.130.10.70',
-//    port: 20269
-// }
-});
-instance.get('http://myip.ipip.net/')
-  .then(response => {
-    console.log('Response:', response.data);
-    console.log('Response:', response.headers);
-  })
-  .catch(error => {
-    console.error('Error:', error);
-  });
+const instance = axios.create({});
+
+function getTest(){
+    instance.get('http://myip.ipip.net/')
+    .then(response => {
+        console.log('Response:', response.data);
+        //console.log('Response:', response.headers);
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });
+}
+getTest();
