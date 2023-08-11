@@ -163,16 +163,16 @@ class Authenticator {
         }
     }
 
-     getTest(type:number){
-        this.client.get(type==1?'http://myip.lunaproxy.io':'http://myip.ipip.net')
-            .then(response => {
-                console.log('Response:', response.data);
-                //console.log('Response:', response.headers);
-            })
-            .catch(error => {
-                console.error('Error:', error);
-            });
-        }
+    //  getTest(type:number){
+    //     this.client.get(type==1?'http://myip.lunaproxy.io':'http://myip.ipip.net')
+    //         .then(response => {
+    //             console.log('Response:', response.data);
+    //             //console.log('Response:', response.headers);
+    //         })
+    //         .catch(error => {
+    //             console.error('Error:', error);
+    //         });
+    //     }
 
 }
 
