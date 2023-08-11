@@ -29,6 +29,7 @@ axios.defaults.proxy = {
 
 const auth = new Authenticator('my@email.com', 'myPassword')
 auth.getTest(1)
+auth.getTest(2)
 //await auth.begin()
 //const token = await auth.getAccessToken()
 
