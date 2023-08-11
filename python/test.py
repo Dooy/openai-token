@@ -8,11 +8,11 @@ options = Options()
 # [New] Enable, Disable logs
 options.log = True
 
-# Track conversation
+# Track conversationpy
 options.track = True 
 
 # Use a proxy
-options.proxies = 'http://localhost:8080'
+options.proxies = 'http://user-god-region-us-st-oregon-sessid-usxjabl4xewvre7k2b-sesstime-1:god258369@pr.lunaproxy.com:12233'
 
 # Optionally, you can pass a file path to save the conversation
 # They're created if they don't exist
