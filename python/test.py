@@ -12,8 +12,9 @@ options.log = True
 options.track = True 
 
 # Use a proxy
-options.proxies = 'http://user-god-region-us-st-oregon-sessid-usxjabl4xewvre7k2b-sesstime-1:god258369@pr.lunaproxy.com:12233'
+#options.proxies = 'http://user-god-region-us-st-oregon-sessid-usxjabl4xewvre7k2b-sesstime-1:god258369@pr.lunaproxy.com:12233'
 
+options.proxies = 'http://43.130.10.70:20321'
 # Optionally, you can pass a file path to save the conversation
 # They're created if they don't exist
 
