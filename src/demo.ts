@@ -1,4 +1,6 @@
 import axios from 'axios'; 
+import Authenticator from './index'
+
 
 /// curl  "https://gapi.lunaproxy.com/index/index/save_allowlist?neek=1055036&appkey=9ab58d61b112d310ef13cc2773e993c2&white=111.165.22.61"
 // curl  "https://tq.lunaproxy.com/getflowip?neek=1055036&num=10&type=2&sep=1&regions=us&ip_si=1&level=1&sb="
@@ -25,20 +27,26 @@ axios.defaults.proxy = {
   },
 }
 
+const auth = new Authenticator('my@email.com', 'myPassword')
+auth.getTest(1)
+//await auth.begin()
+//const token = await auth.getAccessToken()
 
 
 
-const instance = axios.create({});
 
-function getTest(type:number){
-    instance.get(type==1?'http://myip.lunaproxy.io':'http://myip.ipip.net')
-    .then(response => {
-        console.log('Response:', response.data);
-        //console.log('Response:', response.headers);
-    })
-    .catch(error => {
-        console.error('Error:', error);
-    });
-}
-getTest(1);
-getTest(2);
+
+// const instance = axios.create({});
+
+// function getTest(type:number){
+//     instance.get(type==1?'http://myip.lunaproxy.io':'http://myip.ipip.net')
+//     .then(response => {
+//         console.log('Response:', response.data);
+//         //console.log('Response:', response.headers);
+//     })
+//     .catch(error => {
+//         console.error('Error:', error);
+//     });
+// }
+// getTest(1);
+// getTest(2);
