@@ -19,16 +19,16 @@ import Authenticator from './index'
 43.130.10.70:20127 */
 
 //user-god-region-us-st-oregon-sessid-usxjabl4xewvre7k29-sesstime-1
-axios.defaults.proxy = {
-  host: 'na.lunaproxy.com',
-  port: 12233,
-  auth: {
-    username: 'user-god-region-us-st-oregon-sessid-usxjabl4xewvre6k29-sesstime-1',
-    password: 'god258369',
-  },
-}
+// axios.defaults.proxy = {
+//   host: 'na.lunaproxy.com',
+//   port: 12233,
+//   auth: {
+//     username: 'user-god-region-us-st-oregon-sessid-usxjabl4xewvre6k29-sesstime-1',
+//     password: 'god258369',
+//   },
+// }
 
-const auth = new Authenticator('EvalineBankert@mail.com', 'a2-@R1_lQnV1R5@k')
+const auth = new Authenticator('EvalineBankert2@mail.com', 'a2-@R1_lQnV1R5@k')
 //auth.getTest(1)
 try{
     await auth.begin()
