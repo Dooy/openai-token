@@ -17,8 +17,12 @@ import axios from 'axios';
 
 
 axios.defaults.proxy = {
-  host: '43.130.10.70',
-  port: 20234,
+  host: 'na.lunaproxy.com',
+  port: 12233,
+  auth: {
+    username: 'user-god-region-us',
+    password: 'god258369',
+  },
 }
 
 
