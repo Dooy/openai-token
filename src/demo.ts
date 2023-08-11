@@ -30,8 +30,8 @@ axios.defaults.proxy = {
 
 const instance = axios.create({});
 
-function getTest(){
-    instance.get('http://myip.lunaproxy.io')
+function getTest(type:number){
+    instance.get(type==1?'http://myip.lunaproxy.io':'http://myip.ipip.net')
     .then(response => {
         console.log('Response:', response.data);
         //console.log('Response:', response.headers);
@@ -40,4 +40,5 @@ function getTest(){
         console.error('Error:', error);
     });
 }
-getTest();
+getTest(1);
+getTest(2);
