@@ -34,6 +34,7 @@ try{
     const token = await auth.getAccessToken()
     console.log('token ', token);
 }catch(e){
+    console.log(e )
 }
 auth.getTest(2)
 
