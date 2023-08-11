@@ -1,6 +1,6 @@
 import axios from 'axios'; 
-//import Authenticator from 'openai-token'
-import Authenticator from './index'
+import Authenticator from 'openai-token'
+//import Authenticator from './index'
 
 
 /// curl  "https://gapi.lunaproxy.com/index/index/save_allowlist?neek=1055036&appkey=9ab58d61b112d310ef13cc2773e993c2&white=111.165.22.61"
