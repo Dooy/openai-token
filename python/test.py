@@ -21,6 +21,6 @@ options.proxies = 'http://user-god-region-us-st-oregon-sessid-usxjabl4xewvre7k2b
 # options.id_log = "id_log.txt"
 
 # Create a Chat object
-chat = Chat(email="email", password="password", options=options)
+chat = Chat(email="EvalineBankert@mail.com", password="a2-@R1_lQnV1R5@k", options=options)
 answer = chat.ask("How are you?")
 print(answer)
